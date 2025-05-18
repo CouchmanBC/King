@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=2]
+[gd_scene load_steps=39 format=2]
 
 [ext_resource path="res://Right - Walking/Right - Walking_000.png" type="Texture" id=1]
 [ext_resource path="res://Right - Walking/Right - Walking_002.png" type="Texture" id=2]
@@ -32,6 +32,9 @@
 [ext_resource path="res://Right - Walking/Right - Running/Right - Running_008.png" type="Texture" id=30]
 [ext_resource path="res://Right - Walking/Right - Running/Right - Running_009.png" type="Texture" id=31]
 [ext_resource path="res://follower.gd" type="Script" id=32]
+[ext_resource path="res://icon.png" type="Texture" id=33]
+[ext_resource path="res://TriggerMaze.gd" type="Script" id=34]
+[ext_resource path="res://Maze.tscn" type="PackedScene" id=35]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -46,17 +49,27 @@ animations = [ {
 "speed": 10.0
 } ]
 
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 41, 57.5 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 33.5, 30.5 )
+
 [node name="Node2D" type="Node2D"]
 
 [node name="Player" type="KinematicBody2D" parent="."]
 script = ExtResource( 19 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Player"]
-position = Vector2( 517, 202 )
+position = Vector2( 524, 204 )
 scale = Vector2( 0.366211, 0.327148 )
 frames = SubResource( 1 )
 animation = "run_right"
 offset = Vector2( -0.077, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2( 528, 202.5 )
+shape = SubResource( 3 )
 
 [node name="Follower" type="KinematicBody2D" parent="."]
 script = ExtResource( 32 )
@@ -67,3 +80,19 @@ scale = Vector2( 0.366211, 0.327148 )
 frames = SubResource( 1 )
 animation = "run_right"
 offset = Vector2( -0.077, 0 )
+
+[node name="TriggerMaze" type="Area2D" parent="."]
+position = Vector2( 463, 447 )
+script = ExtResource( 34 )
+MazeScene = ExtResource( 35 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TriggerMaze"]
+position = Vector2( 3.5, -1.5 )
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="TriggerMaze"]
+texture = ExtResource( 33 )
+
+[node name="MazeContainer" type="Node2D" parent="."]
+
+[connection signal="body_entered" from="TriggerMaze" to="TriggerMaze" method="_on_TriggerMaze_body_entered"]

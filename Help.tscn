@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://backHelp.gd" type="Script" id=1]
+[ext_resource path="res://helpmenu2.jpg" type="Texture" id=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Helpmenu2" type="Sprite" parent="."]
+position = Vector2( 511.25, 298 )
+scale = Vector2( 0.665039, 0.583984 )
+texture = ExtResource( 2 )
+
+[node name="backHelp" type="Button" parent="."]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = 296.0
+margin_top = 464.0
+margin_right = 680.0
+margin_bottom = 571.0
+script = ExtResource( 1 )
