@@ -1,4 +1,4 @@
-[gd_scene load_steps=195 format=2]
+[gd_scene load_steps=308 format=2]
 
 [ext_resource path="res://PlayerL1.gd" type="Script" id=1]
 [ext_resource path="res://512 x 512/Front - Idle/Front - Idle_000.png" type="Texture" id=2]
@@ -193,9 +193,160 @@
 [ext_resource path="res://512 x 512/Right - Running/Right - Running_002.png" type="Texture" id=191]
 [ext_resource path="res://512 x 512/Front - Running/Front - Running_002.png" type="Texture" id=192]
 [ext_resource path="res://512 x 512/Right - Running/Right - Running_004.png" type="Texture" id=193]
+[ext_resource path="res://512 x 512/Right - Slashing/Right - Slashing_004.png" type="Texture" id=194]
+[ext_resource path="res://512 x 512/Right - Slashing/Right - Slashing_000.png" type="Texture" id=195]
+[ext_resource path="res://512 x 512/Right - Slashing/Right - Slashing_005.png" type="Texture" id=196]
+[ext_resource path="res://512 x 512/Right - Slashing/Right - Slashing_007.png" type="Texture" id=197]
+[ext_resource path="res://512 x 512/Right - Slashing/Right - Slashing_008.png" type="Texture" id=198]
+[ext_resource path="res://512 x 512/Right - Slashing/Right - Slashing_003.png" type="Texture" id=199]
+[ext_resource path="res://512 x 512/Right - Slashing/Right - Slashing_006.png" type="Texture" id=200]
+[ext_resource path="res://512 x 512/Right - Slashing/Right - Slashing_001.png" type="Texture" id=201]
+[ext_resource path="res://512 x 512/Right - Slashing/Right - Slashing_002.png" type="Texture" id=202]
+[ext_resource path="res://512 x 512/Left - Slashing/Left - Slashing_001.png" type="Texture" id=203]
+[ext_resource path="res://512 x 512/Left - Slashing/Left - Slashing_002.png" type="Texture" id=204]
+[ext_resource path="res://512 x 512/Left - Slashing/Left - Slashing_004.png" type="Texture" id=205]
+[ext_resource path="res://512 x 512/Left - Slashing/Left - Slashing_005.png" type="Texture" id=206]
+[ext_resource path="res://512 x 512/Left - Slashing/Left - Slashing_006.png" type="Texture" id=207]
+[ext_resource path="res://512 x 512/Left - Slashing/Left - Slashing_000.png" type="Texture" id=208]
+[ext_resource path="res://512 x 512/Left - Slashing/Left - Slashing_003.png" type="Texture" id=209]
+[ext_resource path="res://512 x 512/Left - Slashing/Left - Slashing_008.png" type="Texture" id=210]
+[ext_resource path="res://512 x 512/Left - Slashing/Left - Slashing_007.png" type="Texture" id=211]
+[ext_resource path="res://512 x 512/Front - Slashing/Front - Slashing_004.png" type="Texture" id=212]
+[ext_resource path="res://512 x 512/Front - Slashing/Front - Slashing_005.png" type="Texture" id=213]
+[ext_resource path="res://512 x 512/Front - Slashing/Front - Slashing_003.png" type="Texture" id=214]
+[ext_resource path="res://512 x 512/Front - Slashing/Front - Slashing_001.png" type="Texture" id=215]
+[ext_resource path="res://512 x 512/Front - Slashing/Front - Slashing_000.png" type="Texture" id=216]
+[ext_resource path="res://512 x 512/Front - Slashing/Front - Slashing_002.png" type="Texture" id=217]
+[ext_resource path="res://512 x 512/Back - Slashing/Back - Slashing_000.png" type="Texture" id=218]
+[ext_resource path="res://512 x 512/Back - Slashing/Back - Slashing_001.png" type="Texture" id=219]
+[ext_resource path="res://512 x 512/Back - Slashing/Back - Slashing_004.png" type="Texture" id=220]
+[ext_resource path="res://512 x 512/Back - Slashing/Back - Slashing_005.png" type="Texture" id=221]
+[ext_resource path="res://512 x 512/Back - Slashing/Back - Slashing_002.png" type="Texture" id=222]
+[ext_resource path="res://512 x 512/Back - Slashing/Back - Slashing_003.png" type="Texture" id=223]
+[ext_resource path="res://512 x 512/Back - Slashing/Back - Slashing_008.png" type="Texture" id=224]
+[ext_resource path="res://512 x 512/Back - Slashing/Back - Slashing_007.png" type="Texture" id=225]
+[ext_resource path="res://512 x 512/Back - Slashing/Back - Slashing_006.png" type="Texture" id=226]
+[ext_resource path="res://512 x 512/Front - Slashing/Front - Slashing_007.png" type="Texture" id=227]
+[ext_resource path="res://512 x 512/Front - Slashing/Front - Slashing_008.png" type="Texture" id=228]
+[ext_resource path="res://512 x 512/Front - Slashing/Front - Slashing_006.png" type="Texture" id=229]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_002.png" type="Texture" id=230]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_004.png" type="Texture" id=231]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_003.png" type="Texture" id=232]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_001.png" type="Texture" id=233]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_005.png" type="Texture" id=234]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_009.png" type="Texture" id=235]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_010.png" type="Texture" id=236]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_000.png" type="Texture" id=237]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_008.png" type="Texture" id=238]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_012.png" type="Texture" id=239]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_017.png" type="Texture" id=240]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_011.png" type="Texture" id=241]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_013.png" type="Texture" id=242]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_007.png" type="Texture" id=243]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_014.png" type="Texture" id=244]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_015.png" type="Texture" id=245]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_006.png" type="Texture" id=246]
+[ext_resource path="res://512 x 512/Front - Pushing/Front - Pushing_016.png" type="Texture" id=247]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_003.png" type="Texture" id=248]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_005.png" type="Texture" id=249]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_007.png" type="Texture" id=250]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_004.png" type="Texture" id=251]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_006.png" type="Texture" id=252]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_001.png" type="Texture" id=253]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_002.png" type="Texture" id=254]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_000.png" type="Texture" id=255]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_002.png" type="Texture" id=256]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_008.png" type="Texture" id=257]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_011.png" type="Texture" id=258]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_014.png" type="Texture" id=259]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_010.png" type="Texture" id=260]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_009.png" type="Texture" id=261]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_017.png" type="Texture" id=262]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_007.png" type="Texture" id=263]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_008.png" type="Texture" id=264]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_012.png" type="Texture" id=265]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_016.png" type="Texture" id=266]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_002.png" type="Texture" id=267]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_016.png" type="Texture" id=268]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_005.png" type="Texture" id=269]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_010.png" type="Texture" id=270]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_008.png" type="Texture" id=271]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_014.png" type="Texture" id=272]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_005.png" type="Texture" id=273]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_017.png" type="Texture" id=274]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_003.png" type="Texture" id=275]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_014.png" type="Texture" id=276]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_015.png" type="Texture" id=277]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_011.png" type="Texture" id=278]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_012.png" type="Texture" id=279]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_007.png" type="Texture" id=280]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_003.png" type="Texture" id=281]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_009.png" type="Texture" id=282]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_001.png" type="Texture" id=283]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_013.png" type="Texture" id=284]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_015.png" type="Texture" id=285]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_010.png" type="Texture" id=286]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_012.png" type="Texture" id=287]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_013.png" type="Texture" id=288]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_015.png" type="Texture" id=289]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_000.png" type="Texture" id=290]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_009.png" type="Texture" id=291]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_000.png" type="Texture" id=292]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_006.png" type="Texture" id=293]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_004.png" type="Texture" id=294]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_006.png" type="Texture" id=295]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_001.png" type="Texture" id=296]
+[ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_013.png" type="Texture" id=297]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_011.png" type="Texture" id=298]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_016.png" type="Texture" id=299]
+[ext_resource path="res://512 x 512/Left - Pushing/Left - Pushing_017.png" type="Texture" id=300]
+[ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_004.png" type="Texture" id=301]
+[ext_resource path="res://icon.png" type="Texture" id=302]
+[ext_resource path="res://portal.gd" type="Script" id=303]
+[ext_resource path="res://Camera2D.gd" type="Script" id=304]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
+"frames": [ ExtResource( 216 ), ExtResource( 215 ), ExtResource( 217 ), ExtResource( 214 ), ExtResource( 212 ), ExtResource( 213 ), ExtResource( 229 ), ExtResource( 227 ), ExtResource( 228 ) ],
+"loop": true,
+"name": "Attack_Down",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 208 ), ExtResource( 203 ), ExtResource( 204 ), ExtResource( 209 ), ExtResource( 205 ), ExtResource( 206 ), ExtResource( 207 ), ExtResource( 211 ), ExtResource( 210 ) ],
+"loop": true,
+"name": "Attack_Left",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 195 ), ExtResource( 201 ), ExtResource( 202 ), ExtResource( 199 ), ExtResource( 194 ), ExtResource( 196 ), ExtResource( 200 ), ExtResource( 197 ), ExtResource( 198 ) ],
+"loop": false,
+"name": "Attack_Right",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 218 ), ExtResource( 219 ), ExtResource( 222 ), ExtResource( 223 ), ExtResource( 220 ), ExtResource( 221 ), ExtResource( 226 ), ExtResource( 225 ), ExtResource( 224 ) ],
+"loop": true,
+"name": "Attack_Up",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 237 ), ExtResource( 233 ), ExtResource( 230 ), ExtResource( 232 ), ExtResource( 231 ), ExtResource( 234 ), ExtResource( 246 ), ExtResource( 243 ), ExtResource( 238 ), ExtResource( 235 ), ExtResource( 236 ), ExtResource( 241 ), ExtResource( 239 ), ExtResource( 242 ), ExtResource( 244 ), ExtResource( 245 ), ExtResource( 247 ), ExtResource( 240 ) ],
+"loop": false,
+"name": "Cast_Down",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 255 ), ExtResource( 253 ), ExtResource( 254 ), ExtResource( 248 ), ExtResource( 251 ), ExtResource( 249 ), ExtResource( 252 ), ExtResource( 250 ), ExtResource( 257 ), ExtResource( 261 ), ExtResource( 270 ), ExtResource( 298 ), ExtResource( 287 ), ExtResource( 288 ), ExtResource( 276 ), ExtResource( 285 ), ExtResource( 268 ), ExtResource( 300 ) ],
+"loop": false,
+"name": "Cast_Left",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 292 ), ExtResource( 283 ), ExtResource( 256 ), ExtResource( 275 ), ExtResource( 301 ), ExtResource( 273 ), ExtResource( 293 ), ExtResource( 263 ), ExtResource( 271 ), ExtResource( 282 ), ExtResource( 286 ), ExtResource( 258 ), ExtResource( 279 ), ExtResource( 284 ), ExtResource( 272 ), ExtResource( 277 ), ExtResource( 299 ), ExtResource( 274 ) ],
+"loop": false,
+"name": "Cast_Right",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 290 ), ExtResource( 296 ), ExtResource( 267 ), ExtResource( 281 ), ExtResource( 294 ), ExtResource( 269 ), ExtResource( 295 ), ExtResource( 280 ), ExtResource( 264 ), ExtResource( 291 ), ExtResource( 260 ), ExtResource( 278 ), ExtResource( 265 ), ExtResource( 297 ), ExtResource( 259 ), ExtResource( 289 ), ExtResource( 266 ), ExtResource( 262 ) ],
+"loop": false,
+"name": "Cast_Up",
+"speed": 20.0
+}, {
 "frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 9 ), ExtResource( 13 ), ExtResource( 11 ), ExtResource( 14 ), ExtResource( 17 ), ExtResource( 16 ), ExtResource( 10 ), ExtResource( 15 ), ExtResource( 12 ), ExtResource( 19 ), ExtResource( 18 ) ],
 "loop": true,
 "name": "Idle_Down",
@@ -219,51 +370,78 @@ animations = [ {
 "frames": [ ExtResource( 187 ), ExtResource( 188 ), ExtResource( 192 ), ExtResource( 185 ), ExtResource( 180 ), ExtResource( 169 ), ExtResource( 179 ), ExtResource( 170 ), ExtResource( 189 ), ExtResource( 182 ), ExtResource( 181 ), ExtResource( 183 ) ],
 "loop": true,
 "name": "Sprint_Down",
-"speed": 5.0
+"speed": 15.0
 }, {
 "frames": [ ExtResource( 178 ), ExtResource( 165 ), ExtResource( 164 ), ExtResource( 168 ), ExtResource( 160 ), ExtResource( 158 ), ExtResource( 163 ), ExtResource( 161 ), ExtResource( 166 ), ExtResource( 159 ), ExtResource( 167 ), ExtResource( 162 ) ],
 "loop": true,
 "name": "Sprint_Left",
-"speed": 5.0
+"speed": 15.0
 }, {
 "frames": [ ExtResource( 173 ), ExtResource( 176 ), ExtResource( 191 ), ExtResource( 171 ), ExtResource( 193 ), ExtResource( 190 ), ExtResource( 184 ), ExtResource( 186 ), ExtResource( 172 ), ExtResource( 174 ), ExtResource( 177 ), ExtResource( 175 ) ],
 "loop": true,
 "name": "Sprint_Right",
-"speed": 5.0
+"speed": 15.0
 }, {
 "frames": [ ExtResource( 156 ), ExtResource( 157 ), ExtResource( 152 ), ExtResource( 149 ), ExtResource( 155 ), ExtResource( 150 ), ExtResource( 147 ), ExtResource( 153 ), ExtResource( 148 ), ExtResource( 154 ), ExtResource( 151 ), ExtResource( 146 ) ],
 "loop": true,
 "name": "Sprint_Up",
-"speed": 5.0
+"speed": 15.0
 }, {
 "frames": [ ExtResource( 73 ), ExtResource( 60 ), ExtResource( 77 ), ExtResource( 68 ), ExtResource( 57 ), ExtResource( 69 ), ExtResource( 58 ), ExtResource( 66 ), ExtResource( 62 ), ExtResource( 70 ), ExtResource( 56 ), ExtResource( 64 ), ExtResource( 67 ), ExtResource( 71 ), ExtResource( 65 ), ExtResource( 63 ), ExtResource( 59 ), ExtResource( 74 ) ],
 "loop": true,
 "name": "Walk_Down",
-"speed": 5.0
+"speed": 15.0
 }, {
 "frames": [ ExtResource( 54 ), ExtResource( 55 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 39 ), ExtResource( 43 ), ExtResource( 49 ), ExtResource( 42 ), ExtResource( 46 ), ExtResource( 44 ), ExtResource( 50 ), ExtResource( 47 ), ExtResource( 40 ), ExtResource( 45 ), ExtResource( 41 ), ExtResource( 38 ), ExtResource( 48 ) ],
 "loop": true,
 "name": "Walk_Left",
-"speed": 5.0
+"speed": 15.0
 }, {
 "frames": [ ExtResource( 33 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 32 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 24 ), ExtResource( 27 ), ExtResource( 22 ), ExtResource( 25 ), ExtResource( 23 ), ExtResource( 31 ), ExtResource( 26 ), ExtResource( 20 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 21 ) ],
 "loop": true,
 "name": "Walk_Right",
-"speed": 5.0
+"speed": 15.0
 }, {
 "frames": [ ExtResource( 61 ), ExtResource( 72 ), ExtResource( 75 ), ExtResource( 76 ), ExtResource( 88 ), ExtResource( 91 ), ExtResource( 78 ), ExtResource( 84 ), ExtResource( 89 ), ExtResource( 90 ), ExtResource( 85 ), ExtResource( 87 ), ExtResource( 79 ), ExtResource( 83 ), ExtResource( 80 ), ExtResource( 82 ), ExtResource( 86 ), ExtResource( 81 ) ],
 "loop": true,
 "name": "Walk_Up",
-"speed": 5.0
+"speed": 15.0
 } ]
 
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 43, 55 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 21.5, 19 )
+
 [node name="Node2D" type="Node2D"]
+position = Vector2( 519, 339 )
 
 [node name="Player" type="KinematicBody2D" parent="."]
+position = Vector2( -1, 1 )
 script = ExtResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Player"]
-position = Vector2( 456, 452 )
+position = Vector2( 4, 7 )
 scale = Vector2( 0.305664, 0.266602 )
 frames = SubResource( 1 )
-animation = "Sprint_Left"
+animation = "Cast_Left"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2( 1, -3 )
+shape = SubResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true
+script = ExtResource( 304 )
+
+[node name="portal" type="Area2D" parent="."]
+position = Vector2( -142, -154 )
+script = ExtResource( 303 )
+
+[node name="Sprite" type="Sprite" parent="portal"]
+texture = ExtResource( 302 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="portal"]
+position = Vector2( 11.5, 9 )
+shape = SubResource( 3 )

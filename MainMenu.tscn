@@ -51,3 +51,10 @@ margin_top = 395.0
 margin_right = 556.0
 margin_bottom = 441.0
 script = ExtResource( 4 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 94.0
+margin_top = 345.0
+margin_right = 224.0
+margin_bottom = 411.0
+text = "reminder put attack into the controls"
