@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://mainmenupic.png" type="Texture" id=1]
-[ext_resource path="res://Startbtn.gd" type="Script" id=2]
-[ext_resource path="res://ExitButton.gd" type="Script" id=3]
-[ext_resource path="res://HelpButton.gd" type="Script" id=4]
-[ext_resource path="res://Settingsbtn.gd" type="Script" id=5]
+[ext_resource path="res://scripts/Startbtn.gd" type="Script" id=2]
+[ext_resource path="res://scripts/ExitButton.gd" type="Script" id=3]
+[ext_resource path="res://scripts/HelpButton.gd" type="Script" id=4]
+[ext_resource path="res://scripts/Settingsbtn.gd" type="Script" id=5]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0

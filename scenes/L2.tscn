@@ -2,7 +2,7 @@
 
 [ext_resource path="res://tile assets/Level2/wall_1.png" type="Texture" id=1]
 [ext_resource path="res://tile assets/Level2/land.png" type="Texture" id=2]
-[ext_resource path="res://PlayerL1.gd" type="Script" id=3]
+[ext_resource path="res://scripts/PlayerL1.gd" type="Script" id=3]
 [ext_resource path="res://512 x 512/Left - Walking/Left - Walking_004.png" type="Texture" id=4]
 [ext_resource path="res://512 x 512/Front - Walking/Front - Walking_004.png" type="Texture" id=5]
 [ext_resource path="res://512 x 512/Front - Walking/Front - Walking_006.png" type="Texture" id=6]
@@ -299,7 +299,7 @@
 [ext_resource path="res://512 x 512/Back - Pushing/Back - Pushing_003.png" type="Texture" id=297]
 [ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_009.png" type="Texture" id=298]
 [ext_resource path="res://512 x 512/Right - Pushing/Right - Pushing_001.png" type="Texture" id=299]
-[ext_resource path="res://Camera2D.gd" type="Script" id=300]
+[ext_resource path="res://scripts/Camera2D.gd" type="Script" id=300]
 [ext_resource path="res://512 x 512/Front - Idle/Front - Idle_000.png" type="Texture" id=301]
 [ext_resource path="res://512 x 512/Front - Idle/Front - Idle_001.png" type="Texture" id=302]
 [ext_resource path="res://512 x 512/Front - Idle/Front - Idle_002.png" type="Texture" id=303]
